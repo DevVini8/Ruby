@@ -1,0 +1,14 @@
+<div class="article">
+<h1 class="titulo"><%= @article.title %></h1>
+
+<p class="paragrafo"><%= @article.body %></p>
+
+<ul class="botoes">
+  <li class="edit-button"><%= link_to "Editar", edit_article_path(@article) %></li>
+  <li class="delete-button"><%= link_to "Deletar", article_path(@article),
+  method: :delete,
+  data: { confirm: "Are you sure?" }%></li>
+  <li class="back-button"><%= link_to "Voltar", articles_path(@article) %></li>
+  
+  
+</div>

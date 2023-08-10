@@ -1,0 +1,128 @@
+
+body{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.articles-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none
+  }
+  
+  .titulo {
+    
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 10px;
+     
+  }
+  .paragrafo {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    width: 900px;
+  }
+ .botoes{margin-left: 900px;
+    position: relative;
+    bottom: 100px;
+   margin-bottom: 30px;}
+  
+  .article .actions {
+    margin-top: 10px;
+  }
+  
+  .article .actions a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .article .actions a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para o botão "New Article" */
+  .new-article-btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #95989b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .new-article-btn:hover {
+    background-color: #6e7174;
+  }
+  .edit-button{
+   
+    width: 60px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .delete-button {
+    text-decoration: none;
+    margin-top: 20px;
+    width: 60px;
+    padding: 5px 10px;
+    background-color: #d41132;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .back-button {
+    text-decoration: none;
+    margin-top: 20px;
+    width: 60px;
+    padding: 5px 10px;
+    background-color: #7cc0d1;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .update-button {
+    text-decoration: none;
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: #22a743;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .edit-button:hover{
+    background-color: #3f92ac;
+  }
+  .delete-button:hover{
+    background-color: rgb(231, 15, 51);
+  }
+  .back-button:hover{
+    background-color: #acd9e4;
+  }
+  .update-button:hover{
+    background-color: #2fd429;
+  }
+  

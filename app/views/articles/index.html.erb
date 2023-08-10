@@ -1,0 +1,18 @@
+<div class="article-container">
+<h1>Artigus</h1>
+
+<ul>    
+<% @articles.each do |article| %>
+<li class="article">
+
+<%= link_to article.title, article %>
+</a>
+
+</li>
+<% end %>
+</ul>
+<button class="new-article-btn">
+<%= link_to "Novo Artigus", new_article_path %>
+</button>
+</div>
+
